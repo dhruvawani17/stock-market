@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  transition: all 0.3s ease;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-footer button:hover {
+  background-color: #303f9f;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+/* Themed Button */
+button {
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
